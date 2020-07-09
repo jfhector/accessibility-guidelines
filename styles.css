@@ -7,8 +7,9 @@
 }
 
 body {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: auto;
+  -webkit-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
   color: #333;
   /* overflow: hidden; */
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
