@@ -658,6 +658,21 @@ details > *:not(:first-child) {
   margin-top: 2rem;
 }
 
+.video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video_container > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Utility classes */
 
 .\!visually-hidden:not(:focus):not(:active) {
